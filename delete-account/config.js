@@ -1,0 +1,1 @@
+window.SMALL_TALK_API_BASE_URL = '';

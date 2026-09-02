@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https:; img-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+  <title>계정 삭제 | 오늘의 스몰토크</title><link rel="stylesheet" href="../styles.css">
+</head>
+<body><main>
+  <a href="../">← 돌아가기</a><h1>오늘의 스몰토크 계정 삭제</h1>
+  <p>앱을 설치하지 않아도 이 페이지에서 계정 삭제를 요청하고 즉시 완료할 수 있습니다.</p>
+  <div class="warning"><strong>삭제되는 정보</strong><p>사용자 계정, 등록 기기, 사용자에게 귀속된 구독 권한 정보가 삭제됩니다. 삭제 후에는 복구할 수 없습니다. 전체 사용자에게 공통인 주제 데이터는 유지됩니다.</p></div>
+  <form id="delete-form" autocomplete="off">
+    <label for="email">계정 이메일</label><input id="email" name="email" type="email" required autocomplete="username">
+    <label for="password">비밀번호</label><input id="password" name="password" type="password" required autocomplete="current-password">
+    <label for="confirmation">확인을 위해 ‘삭제’를 입력하세요</label><input id="confirmation" name="confirmation" required autocomplete="off">
+    <button type="submit">계정 영구 삭제</button>
+  </form>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+  <p class="meta">로그인 정보는 이 페이지의 저장소, 분석 도구 또는 브라우저 저장 공간에 보관되지 않습니다. 문제가 있으면 <a href="mailto:chuuuul@naver.com">chuuuul@naver.com</a>으로 문의하세요.</p>
+  <script src="./config.js"></script><script src="./app.js"></script>
+</main></body></html>
